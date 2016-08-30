@@ -1,7 +1,7 @@
 # raspberrypi_api
 把树莓派的硬件功能作为web api
 
-![](http://oav6fgfj1.bkt.clouddn.com/ledf96a0f7d.png)
+![](https://raw.githubusercontent.com/wwj718/gif_bed/master/ledf96a0f7d.png)
 
 # 原因
 *  近期公司有一个有趣的项目，希望用乐高玩具式的可视化编程工具来操控硬件
@@ -27,7 +27,7 @@ sudo python led_server.py
 
 
 # 微信控制
-和此前的wechat_bot关联即可
+和此前的[wechat_bot](https://github.com/wwj718/wechat_bot)关联即可
 
 # todo
 *  权限
