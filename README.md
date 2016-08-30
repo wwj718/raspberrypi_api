@@ -31,4 +31,7 @@ sudo python led_server.py
 
 # todo
 *  权限
-*  cors 允许网页内控制
+
+# done
+*  cors 
+  *  可以用js控制硬件
