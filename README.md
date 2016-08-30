@@ -25,6 +25,13 @@ sudo python led_server.py
 *  熄灭红灯： curl 192.168.0.106/led_down
 *  闪啊闪  ： curl 192.168.0.106/led_up_down
 
+#### 在网页中用js控制
+```javascript
+xmlhttp=new XMLHttpRequest();
+xmlhttp.open("GET","http://192.168.0.106/led_up_down",true);
+xmlhttp.send();
+```
+
 
 # 微信控制
 和此前的[wechat_bot](https://github.com/wwj718/wechat_bot)关联即可
