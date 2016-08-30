@@ -4,8 +4,9 @@
 import RPi.GPIO
 import time
 from flask import Flask
+from flask_cors import CORS, cross_origin
 app = Flask(__name__)
-
+CORS(app)
 # 对硬件的操作参考：http://blog.mangolovecarrot.net/2015/04/20/raspi-study01/ , 感谢 mango 同学
 # 指定GPIO口的选定模式为GPIO引脚编号模式（而非主板编号模式）
 RPi.GPIO.setmode(RPi.GPIO.BCM)
