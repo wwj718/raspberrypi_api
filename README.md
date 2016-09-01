@@ -43,7 +43,10 @@ xmlhttp.send();
  *  长连接
    *  双向通信  
  *  浏览器中js可操作
-
+ *  python实现
+   *  [WebSocket-for-Python](https://github.com/Lawouach/WebSocket-for-Python)
+   *  [Flask-SocketIO](https://github.com/miguelgrinberg/Flask-SocketIO)
+   *  [flask-sockets](https://github.com/kennethreitz/flask-sockets)
 
 # done
 *  cors 
