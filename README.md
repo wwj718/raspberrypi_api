@@ -38,6 +38,12 @@ xmlhttp.send();
 
 # todo
 *  权限
+ *  先用`?key=xxx`
+*  websocket
+ *  长连接
+   *  双向通信  
+ *  浏览器中js可操作
+
 
 # done
 *  cors 
