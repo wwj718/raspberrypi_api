@@ -46,7 +46,7 @@ def led_up_down():
     RPi.GPIO.output(14, False)
     # 持续一段时间
     time.sleep(0.5)
-    return 'ok'
+  return 'ok'
 
 
 # 最后清理GPIO口（不做也可以，建议每次程序结束时清理一下，好习惯）
