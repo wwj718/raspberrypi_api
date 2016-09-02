@@ -9,11 +9,11 @@ app = Flask(__name__)
 CORS(app)
 # 对硬件的操作参考：http://blog.mangolovecarrot.net/2015/04/20/raspi-study01/ , 感谢 mango 同学
 # 指定GPIO口的选定模式为GPIO引脚编号模式（而非主板编号模式）
-#RPi.GPIO.setmode(RPi.GPIO.BCM)
+RPi.GPIO.setmode(RPi.GPIO.BCM)
 
 # 指定GPIO14（就是LED长针连接的GPIO针脚）的模式为输出模式
 # 如果上面GPIO口的选定模式指定为主板模式的话，这里就应该指定8号而不是14号。
-#RPi.GPIO.setup(14, RPi.GPIO.OUT)
+RPi.GPIO.setup(14, RPi.GPIO.OUT)
 
 # 循环10次
 @app.route('/led_up')
