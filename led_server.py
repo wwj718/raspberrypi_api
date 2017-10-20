@@ -25,16 +25,8 @@ def led_up():
 def led_down():
     RPi.GPIO.output(14, False)
     return 'ok'
-# 闪啊闪
-@app.route('/led_up_down')
-def led_up_down():
-  for i in range(0, 5):
-    # 让GPIO14输出高电平（LED灯亮）
-    RPi.GPIO.output(14, True)
-    # 持续一段时间
-    time.sleep(0.5)
-    # 让GPIO14输出低电平（LED灯灭）
 
+# 闪啊闪
 @app.route('/led_up_down')
 def led_up_down():
     for i in range(0, 5):
