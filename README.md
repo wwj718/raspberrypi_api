@@ -1,3 +1,6 @@
+# 提醒
+项目不再维护，推荐使用[gpiozero](https://gpiozero.readthedocs.io/en/stable/)
+
 # raspberrypi_api
 把树莓派的硬件功能作为web api
 
